@@ -45,3 +45,10 @@ https://github.com/notifications
 
 buid do bot github
 https://buildbot.flathub.org/#/builders/32/builds/96012
+
+
+/home/jerry/dicas-flatpak.txt
+
+adquirir sha256 de arquivo online
+wget http://officefactoring.serveftp.com/demo/OfficeFactoring-1.tar.gz
+sha256sum OfficeFactoring-1.tar.gz
