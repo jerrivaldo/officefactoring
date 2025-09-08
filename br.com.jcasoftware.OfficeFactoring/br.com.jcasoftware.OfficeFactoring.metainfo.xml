@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+<id>br.com.jcasoftware.OfficeFactoring</id>
+<metadata_license>CC0-1.0</metadata_license>
+<project_license>LicenseRef-proprietary</project_license>
+<content_rating type="oars-1.1"/>
+<name>OfficeFactoring</name>
+<summary>Software de Gestão para Factoring, FIDC, Securitizadora e ESC</summary>
+<description>
+    <p>
+      Gerencie sua operação de forma simples, segura e completa. Nosso software foi desenvolvido especialmente para Factoring, FIDC, Securitizadoras e Empresas Simples de Crédito (ESC), oferecendo todos os recursos que você precisa para controlar sua carteira e agilizar processos financeiros.
+    </p>
+
+    <p>Principais funcionalidades:</p>
+    <ul>
+      <li>Desconto de títulos e cobrança bancária integrada</li>
+      <li>API de boletos para maior automação</li>
+      <li>Emissão de balancetes, DRE e extrato de contas</li>
+      <li>Controle de fluxo de caixa, contas a pagar e contas a receber</li>
+      <li>Assinatura digital de duplicatas com validade jurídica</li>
+    </ul>
+
+    <p>
+      Com uma plataforma moderna e intuitiva, você otimiza sua gestão financeira, reduz erros operacionais e aumenta a segurança das suas operações.
+    </p>
+
+    <p>
+      Ideal para empresas que buscam eficiência, compliance e escalabilidade em seus negócios financeiros.
+    </p>
+
+    <p>
+      Baixe agora e leve sua gestão ao próximo nível!
+    </p>
+
+    <p>
+      Temos também uma versão web e outra versão desktop otimizada para Windows.
+    </p>
+  </description><screenshots>
+    <screenshot type="default">
+      <image>https://jcasoftware.com.br/demo/OfficeFactoring.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://jcasoftware.com.br/demo/OfficeFactoring2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://jcasoftware.com.br/demo/OfficeFactoring3.png</image>
+    </screenshot>
+  </screenshots>
+  <launchable type="desktop-id">OfficeFactoring.desktop</launchable>
+  <provides>
+  <binary>OfficeFactoring</binary>
+  </provides>
+  <url type="homepage">https://jcasoftware.com.br</url>
+  <developer id="br.com.jcasoftware">
+    <name>JERRIVALDO COSTA AGUIAR</name>
+  </developer>
+  <update_contact>jerrivaldo@jcasoftware.com.br</update_contact>
+  <releases>
+    <release version="4.0.0" date="2025-09-07"/>
+    <release version="3.0.0" date="2022-09-27"/>
+    <release version="2.0.0" date="2022-07-03"/>
+    <release version="1.0.0" date="2022-06-06"/>
+  </releases>
+</component>

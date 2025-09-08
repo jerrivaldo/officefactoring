@@ -2,12 +2,12 @@
 
 Building
 
-flatpak-builder --install --user --force-clean build-dir com.serveftp.officefactoring.yaml
+flatpak-builder --force-clean --install --user build-dir br.com.jcasoftware.OfficeFactoring.json
 
 Running
 
-flatpak-builder --run build-dir com.serveftp.officefactoring.yaml OfficeFactoring
+flatpak-builder --run build-dir br.com.jcasoftware.OfficeFactoring
 
 login: J, password: rkc
 
-![](http://officefactoring.serveftp.com/demo/github/officefactoring.png)
+![](https://jcasoftware.com.br/demo/github/officefactoring.png)
