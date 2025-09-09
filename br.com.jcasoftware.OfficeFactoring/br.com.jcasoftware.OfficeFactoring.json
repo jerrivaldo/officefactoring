@@ -1,0 +1,41 @@
+{
+  "id": "br.com.jcasoftware.OfficeFactoring",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "46",
+  "sdk": "org.gnome.Sdk",
+  "command": "OfficeFactoring",
+  "finish-args": [
+    "--share=network",
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--device=dri",
+    "--env=GDK_BACKEND=x11",
+    "--env=LD_LIBRARY_PATH=/app/bin"
+  ],
+  "modules": [
+    {
+      "name": "OfficeFactoring",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -D OfficeFactoring /app/bin/OfficeFactoring",
+        "install -D libmidas.so.2 /app/bin/libmidas.so.2",
+        "install -D br.com.jcasoftware.OfficeFactoring.desktop /app/share/applications/br.com.jcasoftware.OfficeFactoring.desktop",
+        "install -D br.com.jcasoftware.OfficeFactoring.metainfo.xml /app/share/metainfo/br.com.jcasoftware.OfficeFactoring.metainfo.xml",
+        "install -D icons/128x128/OfficeFactoring.png /app/share/icons/hicolor/128x128/apps/OfficeFactoring.png",
+        "install -D icons/256x256/OfficeFactoring.png /app/share/icons/hicolor/256x256/apps/OfficeFactoring.png",
+        "install -D icons/512x512/OfficeFactoring.png /app/share/icons/hicolor/512x512/apps/OfficeFactoring.png",
+        "install -D icons/64x64/OfficeFactoring.png /app/share/icons/hicolor/64x64/apps/OfficeFactoring.png"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://raw.githubusercontent.com/jerrivaldo/officefactoring/master/OfficeFactoring.tar.gz",
+          "sha256": "b2f38fcc93f207615d53a6cb7ff03a8be018825c41fd96135509dc9936140bb5",
+          "dest": "."
+        }
+      ]
+    }
+  ]
+}
+

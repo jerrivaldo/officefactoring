@@ -1,0 +1,29 @@
+app-id: br.com.jcasoftware.OfficeFactoring
+runtime: org.gnome.Platform
+runtime-version: "46"
+sdk: org.gnome.Sdk
+command: OfficeFactoring
+finish-args:
+  - --socket=x11
+  - --socket=wayland
+  - --share=ipc
+  - --share=network
+  - --env=GDK_BACKEND=x11
+  - --env=LD_LIBRARY_PATH=/app/lib
+
+modules:
+  - name: OfficeFactoring
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 OfficeFactoring /app/bin/OfficeFactoring
+      - install -Dm755 libmidas.so.2 /app/lib/libmidas.so.2
+      - ln -s /app/lib/libmidas.so.2 /app/bin/libmidas.so.2
+      - install -Dm644 br.com.jcasoftware.OfficeFactoring.desktop /app/share/applications/br.com.jcasoftware.OfficeFactoring.desktop
+      - install -Dm644 br.com.jcasoftware.OfficeFactoring.metainfo.xml /app/share/metainfo/br.com.jcasoftware.OfficeFactoring.metainfo.xml
+      - install -Dm644 icons/64x64/br.com.jcasoftware.OfficeFactoring.png /app/share/icons/hicolor/64x64/apps/br.com.jcasoftware.OfficeFactoring.png
+      - install -Dm644 icons/128x128/br.com.jcasoftware.OfficeFactoring.png /app/share/icons/hicolor/128x128/apps/br.com.jcasoftware.OfficeFactoring.png
+      - install -Dm644 icons/256x256/br.com.jcasoftware.OfficeFactoring.png /app/share/icons/hicolor/256x256/apps/br.com.jcasoftware.OfficeFactoring.png
+      - install -Dm644 icons/512x512/br.com.jcasoftware.OfficeFactoring.png /app/share/icons/hicolor/512x512/apps/br.com.jcasoftware.OfficeFactoring.png
+    sources:
+      - type: "dir"
+        path: "."
