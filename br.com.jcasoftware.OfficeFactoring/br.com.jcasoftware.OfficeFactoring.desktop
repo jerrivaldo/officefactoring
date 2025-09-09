@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Office Factoring
+Name[pt_BR]=Office Factoring
+Comment=Software de Gestão para Factoring, FIDC, Securitizadora e ESC
+Exec=OfficeFactoring
+Icon=br.com.jcasoftware.OfficeFactoring
+Terminal=false
+StartupNotify=true
+Categories=Office;Finance;GTK;
+

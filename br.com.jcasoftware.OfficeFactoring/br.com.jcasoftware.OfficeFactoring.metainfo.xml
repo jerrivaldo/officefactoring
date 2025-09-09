@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>br.com.jcasoftware.OfficeFactoring</id>
+  <name>Office Factoring</name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <summary>Software de Gestão para Factoring, FIDC, Securitizadora e ESC</summary>
+  <description>
+    <p>O Office Factoring é uma solução completa para gestão de factoring, FIDC, Securitizadora e ESC.</p>
+    <p>Principais recursos:</p>
+    <ul>
+      <li>Desconto de títulos e cobrança bancária integrada</li>
+      <li>API de boletos para maior automação</li>
+      <li>Emissão de balancetes, DRE e extrato de contas</li>
+      <li>Controle de fluxo de caixa, contas a pagar e contas a receber</li>
+      <li>Assinatura digital de duplicatas com validade jurídica</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">br.com.jcasoftware.OfficeFactoring.desktop</launchable>
+
+  <categories>
+    <category>Finance</category>
+  </categories>
+  <releases>
+    <release version="4.0.0" date="2025-09-07"/>
+    <release version="3.0.0" date="2022-09-27"/>
+    <release version="2.0.0" date="2022-07-03"/>
+    <release version="1.0.0" date="2022-06-06"/>
+  </releases>
+</component>
+
